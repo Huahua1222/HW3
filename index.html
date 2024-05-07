@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/imgs/openai-logo-DmWoKcI3.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ChatGPT</title>
+    <link rel="stylesheet" crossorigin="" href="styles.css">
+</head>
+<body>
+    <div id="root">
+        <div class="page-wrapper">
+            <header class="oai-header">
+                <img src="/imgs/openai-logo-DmWoKcI3.svg" alt="OpenAI's Logo">
+            </header>
+            <main class="main-container">
+                <section class="content-wrapper">
+                    <div class="title-wrapper">
+                        <h1 class="title">歡迎回來</h1>
+                    </div>
+                    <div class="input-wrapper">
+                        <input class="email-input" inputmode="email" type="email" id="email-input" name="email" autocomplete="username" autocapitalize="none" spellcheck="false" required="" placeholder=" ">
+                        <label class="email-label" for="email-input">電子郵件地址</label>
+                    </div>
+                    <button class="continue-btn">繼續</button>
+                    <p class="other-page">
+                        還沒有帳戶嗎？
+                        <a href="https://auth.openai.com/authorize?client_id=TdJIcbe16WoTHtN95nyywh5E4yOo6ItG&amp;scope=openid+email+profile+offline_access+model.request+model.read+organization.read+organization.write&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fchatgpt.com%2Fapi%2Fauth%2Fcallback%2Flogin-web&amp;audience=https%3A%2F%2Fapi.openai.com%2Fv1&amp;device_id=6268e341-9266-40d6-a608-118a8a9f7d5a&amp;prompt=login&amp;screen_hint=signup&amp;state=te2waebX1xCu8JxasQn9LN4bKHcwCvNBvb8Uw-4SPM0&amp;code_challenge=Yv4B6vNvSXP11ynwgZzIKbD9K1jQyCRI2EaFZTYVGA0&amp;code_challenge_method=S256">註冊</a>
+                    </p>
+                    <div class="divider-wrapper">
+                        <span class="divider">或</span>
+                    </div>
+                    <div class="social-section">
+                        <button class="social-btn">
+                        <span class="social-logo-wrapper">
+                            <img class="social-logo" src="/imgs/google-logo-NePEveMl.svg" alt="Google logo">
+                        </span>
+                        <span class="social-text">使用 Google 帳戶繼續</span>
+                        </button>
+                        <button class="social-btn">
+                            <span class="social-logo-wrapper">
+                                <img class="social-logo" src="/imgs/microsoft-logo-BUXxQnXH.svg" alt="Microsoft logo">
+                            </span>
+                            <span class="social-text">使用 Microsoft 帳戶繼續</span>
+                        </button>
+                        <button class="social-btn">
+                            <span class="social-logo-wrapper">
+                                <img class="social-logo" src="/imgs/apple-logo-tAoxPOUx.svg" alt="Apple logo">
+                            </span>
+                            <span class="social-text">使用 Apple 帳戶繼續</span>
+                        </button>
+                    </div>
+                </section>
+            </main>
+            <footer class="oai-footer">
+                <a href="https://openai.com/policies/terms-of-use">使用條款</a>
+                <span class="separator"></span>
+                <a href="https://openai.com/policies/privacy-policy">隱私權政策</a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
